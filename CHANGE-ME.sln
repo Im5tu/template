@@ -1,0 +1,62 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solution", ".solution", "{83EFE5A2-D0F3-4A20-A87C-161606CED168}"
+ProjectSection(SolutionItems) = preProject
+	.gitignore = .gitignore
+	CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+	CONTRIBUTING.md = CONTRIBUTING.md
+	LICENSE = LICENSE
+	README.md = README.md
+	SECURITY.md = SECURITY.md
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7272C550-3747-4CAF-A232-5F730C8038EC}"
+ProjectSection(SolutionItems) = preProject
+	src\Directory.Build.props = src\Directory.Build.props
+	src\Directory.Build.targets = src\Directory.Build.targets
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1BA34D43-19E5-472D-ADF1-F17647D224CB}"
+ProjectSection(SolutionItems) = preProject
+	test\Directory.Build.props = test\Directory.Build.props
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{7FCA27DE-EA67-42EA-967B-3EB5FF451A1B}"
+ProjectSection(SolutionItems) = preProject
+	.github\pull_request_template.md = .github\pull_request_template.md
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{01B23D74-D64C-451B-B490-B8B429170727}"
+ProjectSection(SolutionItems) = preProject
+	.github\workflows\ci-pipeline.yml = .github\workflows\ci-pipeline.yml
+	.github\workflows\release-builds.yml = .github\workflows\release-builds.yml
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "issue_templates", "issue_templates", "{38784DEA-E23D-43E9-8225-8BDBFD6868CA}"
+ProjectSection(SolutionItems) = preProject
+	.github\ISSUE_TEMPLATE\bug_report.md = .github\ISSUE_TEMPLATE\bug_report.md
+	.github\ISSUE_TEMPLATE\config.yml = .github\ISSUE_TEMPLATE\config.yml
+	.github\ISSUE_TEMPLATE\feature_request.md = .github\ISSUE_TEMPLATE\feature_request.md
+	.github\ISSUE_TEMPLATE\support.md = .github\ISSUE_TEMPLATE\support.md
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01B23D74-D64C-451B-B490-B8B429170727} = {7FCA27DE-EA67-42EA-967B-3EB5FF451A1B}
+		{38784DEA-E23D-43E9-8225-8BDBFD6868CA} = {7FCA27DE-EA67-42EA-967B-3EB5FF451A1B}
+		{7FCA27DE-EA67-42EA-967B-3EB5FF451A1B} = {83EFE5A2-D0F3-4A20-A87C-161606CED168}
+	EndGlobalSection
+EndGlobal
