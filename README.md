@@ -1,11 +1,10 @@
-<!-- README is a modified version of: https://github.com/othneildrew/Best-README-Template/blob/main/README.md -->
+<!-- README is a modified version of: https://github.com/othneildrew/Best-README-Template/blob/master/README.md -->
 <!-- If you do not require a subsection of this readme, please delete it to avoid empty sections, eg: Prerequisites/Built with -->
 
 <!-- TODO : Find and replace in all files: -->
 <!--           - $PROJECT_NAME with the user friendly project name, eg: 'My Example Project' -->
 <!--           - $PROJECT_EMAIL with the contact email address for the project, eg: 'something@example.com' -->
 <!--           - $PROJECT_STUB with the user/repo combination, eg: 'im5tu/openmessage' -->
-<!-- TODO : Re-enable the triggers in .github/workflows/ci-pipeline.yml -->
 <!-- TODO : Please fill in all sections below as much as possible -->
 <!-- TODO : (Repo settings) Enable pull request status checks to the default branch -->
 <!-- TODO : (Repo settings) Enable dependabot for security fixes -->
@@ -22,6 +21,7 @@ Give people an idea about what the project accomplishes and the problems that it
 
 <!-- Optional section -->
 ### Built With
+
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section.
 
 ## Table of Contents
@@ -38,12 +38,15 @@ This section should list any major frameworks that you built your project using.
 ## Getting Started
 <!-- Optional section -->
 ### Prerequisites
+
 If there area prerequisites, provide instructions on how to install them here.
 
 ### Installation
+
 Provide instructions on how to install this project.
 
 ### Usage
+
 Show useful examples of a basic getting up and running.
 
 ## Roadmap

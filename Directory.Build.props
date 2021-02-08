@@ -10,11 +10,11 @@
         <LangVersion>Latest</LangVersion>
         <!-- Enable nullable reference types -->
         <Nullable>enable</Nullable>
-        <!-- Treat all warnigns as errors -->
+        <!-- Treat all warnings as errors -->
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-        <!-- The root for all of the artifacts -->
+        <!-- The root for all of the artefacts -->
         <ArtifactRoot>$(MSBuildThisFileDirectory)</ArtifactRoot>
-        <!-- Link the project url so that we get the correct url in NuGet Package Explorer etc -->
+        <!-- Link the project URL so that we get the correct URL in NuGet Package Explorer etc. -->
         <PackageProjectUrl>https://github.com/$PROJECT_STUB.git</PackageProjectUrl>
         <!-- Set the repository root for other tasks -->
         <RepositoryRoot>$(MSBuildThisFileDirectory)</RepositoryRoot>

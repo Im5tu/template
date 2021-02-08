@@ -6,6 +6,8 @@
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <!-- pre-release packages get the label preview -->
         <MinVerDefaultPreReleasePhase>preview</MinVerDefaultPreReleasePhase>
+        <!-- no need to run MinVer on debug builds -->
+        <MinVerSkip Condition="'$(Configuration)' == 'Debug'">true</MinVerSkip>
     </PropertyGroup>
 
     <Target Name="SetupProperties" BeforeTargets="Build">
